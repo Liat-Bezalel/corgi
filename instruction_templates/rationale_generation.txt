@@ -1,0 +1,33 @@
+[INST] # Instruction
+
+Given a question, provide background knowledge that may help to answer the question. Write up to 2 sentences. Do not reveal the correct answer explicitly. Write up to 2 short sentences.
+Please ensure that you meet the following criteria:
+1. Your background provides helpful information for answering the question.
+2. Your background should be no more than two sentences.
+
+# Examples
+
+## Example 1
+- Input: "Question: Where do salesman work? 
+Options: 
+1. front door
+2. office space
+3. car show
+4. toy store
+5. shop."
+- Output: Background: Salesmen are professionals who work in various industries and settings, including retail, wholesale, and manufacturing. They are responsible for promoting and selling products or services to customers, often face-to-face or over the phone.
+
+## Example 2
+- Input: "Question: Where are you likely to see more than one office building?
+Options: 
+1. work
+2. industrial complex
+3. city
+4. new york
+5. suburbia"
+- Output: Background: Office buildings are typically found in urban areas, where there is a high concentration of businesses and professionals. These areas often have a mix of old and new buildings, with different architectural styles and sizes.
+
+# Your Task 
+
+- Input: "{question}" [/INST]
+- Output: Background:

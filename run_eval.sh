@@ -1,0 +1,2 @@
+#! /bin/bash
+python validate_with_critique.py --model_prefix_path meta-llama/Meta-Llama-3-8B-Instruct --task program --retry_limit 19 --split test --batch_size 8 --save_suffix "" --model_type llama_3 --max_len 150

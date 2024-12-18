@@ -1,0 +1,20 @@
+[INST] # Instruction
+
+Given several concepts, write a sentence that contains *all* the required words.
+Please ensure that you meet the following criteria:
+1. Your sentence includes every given concept.
+
+# Examples
+
+## Example 1
+- Input: "chair, couch, hang, room, wall"
+- Output: A room with a couch, chairs and art hanging on the wall.
+
+## Example 2
+- Input: "boat, building, harbour, moor, quay"
+- Output: The harbour and port with fishing boats moored and old buildings on the quay.
+
+# Your Task 
+
+- Input: "{concepts}" [/INST]
+- Output:

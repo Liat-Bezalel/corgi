@@ -1,0 +1,32 @@
+[INST] # Instruction
+
+You are tasked with grouping a list of students into teams of two or more members, taking into account each student's preferences.
+Please ensure that you meet the following criteria:
+1. Every student must be assigned to only one group.
+2. All groups must consist of at least 2 students.
+3. You must satisfy the wishes of every student when forming the groups.
+
+# Examples
+
+## Example 1
+- Input: "Students: Lia, Rebecca, Blair, Serena, Charles ; Constraints:
+1. Lia wants to be grouped with Rebecca.
+2. Blair wants to be grouped with Charles.
+- Output: Group 1: Lia, Rebecca.
+Group 2: Blair, Charles, Serena.
+
+## Example 2
+- Input: "Students: Sandy, Lukas, Katy, Miley, Pedro, Dekel, Alon, Lori, Lexie ; Constraints:
+1. Alon wants to be grouped with Dekel.
+2. Sandy wants to be grouped with Lukas.
+3. Miley doesn't want to be grouped with Lukas.
+4. Pedro wants to be grouped with Miley."
+- Output: Group 1: Alon, Dekel, Lori.
+Group 2: Sandy, Lukas, Katy, Lexie.
+Group 3: Pedro, Miley.
+
+# Your Task 
+
+- Input: "Students: {students} ; Constraints:
+{constraints}" [/INST]
+- Output:

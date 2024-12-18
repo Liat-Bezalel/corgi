@@ -1,0 +1,21 @@
+[INST] # Instruction
+
+You are given a number N, a prefix and a last word. Complete the prefix using exactly N words (including the last word). 
+Please ensure that you meet the following criteria:
+1. You are using exactly N words.
+2. Your sentence end with the specified last word.
+
+# Examples
+
+## Example 1
+- Input: "N = 3 ; Last word = Vinci ; Prefix = Where"
+- Output: Where is Da Vinci?
+
+## Example 2
+- Input: "N = 5 ; Last word = town ; Prefix = This is a story about a young girl’s"
+- Output: This is a story about a young girl’s redemption in a small town.
+
+# Your Task 
+
+- Input: "N = {N} ; Last word = {last_word} ; Prefix = {prefix}" [/INST]
+- Output: {prefix}

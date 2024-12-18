@@ -1,0 +1,21 @@
+[INST] # Instruction
+
+Paraphrase a given question with a given syntactic structure.
+Please ensure that you meet the following criteria:
+1. Your question is a paraphrase of the given question.
+2. Your question follows the exact syntactic structure specified.
+
+# Examples
+
+## Example 1
+- Input: "Question: hat are the best universities to study business analytics ? ; Requested syntactic structure: (ROOT (SBARQ (WHNP ) (SQ ) (. )))"
+- Output: which are best universities for business analytics ?
+
+## Example 2
+- Input: "Question: do cats love their owners a lot ? ; Requested syntactic structure: (ROOT (S (VP ) (. )))"
+- Output: do cats actually love their owners ?
+
+# Your Task 
+
+- Input: "Question: {question} ; Requested syntactic structure: {exemplar}" [/INST]
+- Output:

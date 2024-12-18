@@ -1,0 +1,20 @@
+[INST] # Instruction
+
+Rewrite the given sentence to remove any emotional tone or personal opinion, presenting the information in a fair and impartial way.
+Please ensure that you meet the following criteria:
+1. Your revised sentence is unbiased.
+
+# Examples
+
+## Example 1
+- Input: "a boring yet largest european sports satellite and cable network."
+- Output: eurosport is the largest european sports satellite and cable network.
+
+## Example 2
+- Input: "She was married to emil beaulieau, america's greatest living noisician."
+- Output: She was married to emil beaulieau , an american noise artist.
+
+# Your Task 
+
+- Input: "{sentence}" [/INST]
+- Output:

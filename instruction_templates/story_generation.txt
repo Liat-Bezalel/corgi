@@ -1,0 +1,21 @@
+[INST] # Instruction
+
+Continue writing a story within 4 very short sentences.
+Please ensure that you meet the following criteria:
+1. Try to make as less repetitions as possible.
+2. Your story is coherent.
+
+# Examples
+
+## Example 1
+- Input: "Luke was playing hockey at school."
+- Output: Luke was playing hockey at school. The game was tied and almost over. Then Luke made the winning shot! Everybody cheered! Luke was so proud of himself!
+
+## Example 2
+- Input: "Roger was hungry."
+- Output: Roger was hungry. He checked the fridge. The fridge was empty. Roger went to the store. He came home with lots of food.
+
+# Your Task 
+
+- Input: "{prefix}" [/INST]
+- Output: {prefix}

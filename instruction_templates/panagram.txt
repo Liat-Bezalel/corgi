@@ -1,0 +1,22 @@
+[INST] # Instruction
+
+You are given a list of letters. Create a word that has ALL the letters in the list. Namely, you should create a Panagram.
+Please ensure that you meet the following criteria:
+1. The word must be a valid English word.
+2. You must use all the letters in the collection.
+3. You don't use any letters that aren't in the list.
+
+# Examples
+
+## Example 1
+- Input: "Letters: [y, e, j, l]"
+- Output: Word: jelly.
+
+## Example 2
+- Input: "Letters: [o, c, l]"
+- Output: Word: cool.
+
+# Your Task 
+
+- Input: "Letters: {letters_list}" [/INST]
+- Output: Word:

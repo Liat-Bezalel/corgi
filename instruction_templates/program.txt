@@ -1,0 +1,23 @@
+[INST] # Instruction
+
+Create a one-line Python function f(x) that correctly transforms all inputs to their corresponding results.
+Please ensure that you meet the following criteria:
+1. Your function correctly performs the transformation.
+2. Your function has correct syntax and contains no comments or blank lines.
+3. Your function's name is f.
+4. Your function is as short as possible.
+
+# Examples
+
+## Example 1
+- Input: "f(5) = 2, f(4) = 1, f(10) = 7, f(11) = 8"
+- Output: def f(x): return x - 3
+
+## Example 2
+- Input: "f(12) = -12, f(1) = -1, f(0) = 0"
+- Output: def f(x): return -1 * x
+
+# Your Task 
+
+- Input: "{mapping}" [/INST]
+- Output:

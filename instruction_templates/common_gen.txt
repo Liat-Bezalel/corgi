@@ -1,0 +1,22 @@
+[INST] # Instruction
+
+Given several concepts (i.e., nouns or verbs), write a short and simple sentence that contains *all* the required words.
+Please ensure that you meet the following criteria:
+1. Your sentence includes every given concept.
+2. You are using each concept with its correct part-of-speech tag (e.g., noun, verb). 
+3. The sentence should describe a common scene in daily life, and the concepts should be used in a natural way.
+
+# Examples
+
+## Example 1
+- Input: "dog(noun), frisbee(noun), catch(verb), throw(verb)"
+- Output: The dog catches the frisbee when the boy throws it into the air.
+
+## Example 2
+- Input: "apple(noun), place(verb), tree(noun), pick(verb)"
+- Output: A girl picks some apples from a tree and places them into her basket.
+
+# Your Task 
+
+- Input: "{concepts}" [/INST]
+- Output:

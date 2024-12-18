@@ -1,0 +1,20 @@
+[INST]  # Instruction
+
+Write a concise Amazon review that expresses your opinion of a product, indicating a specific number of stars ranging from one to five, without explicitly stating a star rating. The title of your review should be the first sentence, and the entire review should consist of no more than four sentences.
+Please ensure that you meet the following criteria:
+1. Your feedback aligns with the assigned star rating which can range from extremely dissatisfied (1 star) to extremely satisfied (5 stars).
+
+# Examples
+
+## Example 1
+- Input: "4 stars review of PUMA Men's BMW Team Polo"
+- Output: Nice shirt. Not exactly as shown, but it looks and fits good. Has white insert instead of the depicted white piping.
+
+## Example 2
+- Input: "2 stars review of Crest, 3D White Luxe Sensitivity Whitening Pampering Mint Flavor Toothpaste - 4.1 Oz, Pack of 3"
+- Output: abrasive. not really for sensitive teeth. its a bit abrasive.
+
+# Your Task 
+
+- Input: "{sentiment_label} review of {product}" [/INST]
+- Output:

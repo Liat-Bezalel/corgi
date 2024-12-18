@@ -1,0 +1,30 @@
+[INST] # Instruction
+
+Create a Python function that accomplishes the specified task.
+Please ensure that you meet the following criteria:
+1. The function must accurately complete the task as described.
+2. The function must have correct and error-free syntax.
+3. You have used the specified function signature in the provided tests.
+4. Your code should satisfy the provided tests.
+
+# Examples
+
+## Example 1
+- Input: "Write a function to reverse words in a given string. Tests:
+assert reverse_words('python program')==('program python')
+assert reverse_words('java language')==('language java')
+assert reverse_words('indian man')==('man indian')"
+- Output: def reverse_words(s): return ' '.join(reversed(s.split()))
+
+## Example 2
+- Input: "Write a python function to remove the k'th element from a given list. Tests:
+assert remove_kth_element([1,1,2,3,4,4,5,1],3)==[1, 1, 3, 4, 4, 5, 1]
+assert remove_kth_element([0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9, 4, 4],4)==[0, 0, 1, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9, 4, 4]
+assert remove_kth_element([10, 10, 15, 19, 18, 18, 17, 26, 26, 17, 18, 10],5)==[10,10,15,19, 18, 17, 26, 26, 17, 18, 10]"
+- Output: def remove_kth_element(list1, L): return list1[:L-1] + list1[L:]
+
+# Your Task
+
+- Input: "{instruction} Tests:
+{tests}" [/INST]
+- Output:
